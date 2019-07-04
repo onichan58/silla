@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible"content="IE=edge,chrome=1">
+	<title>silla</title>
+        <meta name="description"content="">
+    <meta name="viewport"content="width=device-width">
+	<script type="text/javascript" src="silla.js"></script>
+    <script type="text/javascript" src="cuadrado.js"></script>
+         <script type="text/javascript" src="main2.js"></script>
+         
+         
+</head>
+<style>
+	.buton{
+         padding:20px,20px;
+        background: purple;
+        color:white;
+        font:bold 15px/15px arial;
+        cursor:pointer;
+	    width:220px; height:50px;
+	    
+	 }
+ 
+    
+</style>
+<body>
+    
+<div id="cabecera">
+<h2>MIGUEL VARGAS PEREZ </h2>
+<h3>Programacion orientada a objectos </h3>
+    </div>
+    
+<canvas id="myCanvas" height="700px" width="1000px" style="border: purple 50px; border-style :double"></canvas>
+
+<button class="buton" onclick="Clear();crearsilla()">Dibujar silla</button>
+<button class="buton"onclick="Clear();ordenarSillasTamaño()">Ordenar Silla Por Tamaño</button>
+<button class="buton"onclick="Clear();OrdenarEdad()">Ordenar Silla por Edad</button>
+<button class="buton"onclick="Clear();OrdenarMaterial()">Ordenar Silla por color</button>
+
+  
+
+</body>
+</html>
